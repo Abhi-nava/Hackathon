@@ -14,7 +14,7 @@ body, html {
     flex-direction: column;
 }
 .top-left {
-    background-color: #ccff66;
+    background-color: #c2c3c0;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -23,7 +23,7 @@ body, html {
     font-weight: bold;
 }
 .bottom-left {
-    background-color: #ff66cc;
+    background-color: #d8dbd0;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -63,14 +63,15 @@ body, html {
     font-weight: bold;
     margin: 20px 0;
 }
-.icon-container {
+.button-container {
     display: flex;
     justify-content: space-around;
     width: 60%;
 }
-.icon {
-    width: 60px;
-    height: 60px;
+.button {
+    width: 100px;
+    height: 40px;
     background-color: #ccff66;
     border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
 }
